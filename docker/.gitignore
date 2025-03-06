@@ -1,0 +1,20 @@
+logs/*
+!logs/.gitkeep
+notebooks/*
+!notebooks/*.ipynb
+dags/*
+!dags/*.py
+
+# Ignore Python virtual environments
+myenv/
+venv/
+env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
